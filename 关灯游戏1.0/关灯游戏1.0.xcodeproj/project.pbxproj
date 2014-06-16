@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8BA5B819484C3A005D6891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8BA5B719484C3A005D6891 /* Foundation.framework */; };
+		9F8BA5BA19484C3A005D6891 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8BA5B919484C3A005D6891 /* CoreGraphics.framework */; };
+		9F8BA5BC19484C3A005D6891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8BA5BB19484C3A005D6891 /* UIKit.framework */; };
+		9F8BA5C219484C3A005D6891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BA5C019484C3A005D6891 /* InfoPlist.strings */; };
+		9F8BA5C419484C3A005D6891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BA5C319484C3A005D6891 /* main.m */; };
+		9F8BA5C819484C3A005D6891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BA5C719484C3A005D6891 /* AppDelegate.m */; };
+		9F8BA5CA19484C3A005D6891 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BA5C919484C3A005D6891 /* Images.xcassets */; };
+		9F8BA5D119484C3A005D6891 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8BA5D019484C3A005D6891 /* XCTest.framework */; };
+		9F8BA5D219484C3A005D6891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8BA5B719484C3A005D6891 /* Foundation.framework */; };
+		9F8BA5D319484C3A005D6891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8BA5BB19484C3A005D6891 /* UIKit.framework */; };
+		9F8BA5DB19484C3A005D6891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F8BA5D919484C3A005D6891 /* InfoPlist.strings */; };
+		9F8BA5DD19484C3A005D6891 /* ____1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BA5DC19484C3A005D6891 /* ____1_0Tests.m */; };
+		9F8BA5E819484C5B005D6891 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BA5E719484C5B005D6891 /* MainViewController.m */; };
+		9F8BA5EB19484D0B005D6891 /* BtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BA5EA19484D0B005D6891 /* BtnView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8BA5D419484C3A005D6891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8BA5AC19484C3A005D6891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8BA5B319484C3A005D6891;
+			remoteInfo = "关灯游戏1.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F8BA5B419484C3A005D6891 /* 关灯游戏1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "关灯游戏1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8BA5B719484C3A005D6891 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F8BA5B919484C3A005D6891 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F8BA5BB19484C3A005D6891 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F8BA5BF19484C3A005D6891 /* 关灯游戏1.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "关灯游戏1.0-Info.plist"; sourceTree = "<group>"; };
+		9F8BA5C119484C3A005D6891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F8BA5C319484C3A005D6891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8BA5C519484C3A005D6891 /* 关灯游戏1.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "关灯游戏1.0-Prefix.pch"; sourceTree = "<group>"; };
+		9F8BA5C619484C3A005D6891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F8BA5C719484C3A005D6891 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F8BA5C919484C3A005D6891 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F8BA5CF19484C3A005D6891 /* 关灯游戏1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "关灯游戏1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8BA5D019484C3A005D6891 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9F8BA5D819484C3A005D6891 /* 关灯游戏1.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "关灯游戏1.0Tests-Info.plist"; sourceTree = "<group>"; };
+		9F8BA5DA19484C3A005D6891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F8BA5DC19484C3A005D6891 /* ____1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____1_0Tests.m"; sourceTree = "<group>"; };
+		9F8BA5E619484C5B005D6891 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9F8BA5E719484C5B005D6891 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9F8BA5E919484D0B005D6891 /* BtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnView.h; sourceTree = "<group>"; };
+		9F8BA5EA19484D0B005D6891 /* BtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8BA5B119484C3A005D6891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8BA5BA19484C3A005D6891 /* CoreGraphics.framework in Frameworks */,
+				9F8BA5BC19484C3A005D6891 /* UIKit.framework in Frameworks */,
+				9F8BA5B819484C3A005D6891 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8BA5CC19484C3A005D6891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8BA5D119484C3A005D6891 /* XCTest.framework in Frameworks */,
+				9F8BA5D319484C3A005D6891 /* UIKit.framework in Frameworks */,
+				9F8BA5D219484C3A005D6891 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8BA5AB19484C3A005D6891 = {
+			isa = PBXGroup;
+			children = (
+				9F8BA5BD19484C3A005D6891 /* 关灯游戏1.0 */,
+				9F8BA5D619484C3A005D6891 /* 关灯游戏1.0Tests */,
+				9F8BA5B619484C3A005D6891 /* Frameworks */,
+				9F8BA5B519484C3A005D6891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8BA5B519484C3A005D6891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BA5B419484C3A005D6891 /* 关灯游戏1.0.app */,
+				9F8BA5CF19484C3A005D6891 /* 关灯游戏1.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8BA5B619484C3A005D6891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BA5B719484C3A005D6891 /* Foundation.framework */,
+				9F8BA5B919484C3A005D6891 /* CoreGraphics.framework */,
+				9F8BA5BB19484C3A005D6891 /* UIKit.framework */,
+				9F8BA5D019484C3A005D6891 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8BA5BD19484C3A005D6891 /* 关灯游戏1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BA5C619484C3A005D6891 /* AppDelegate.h */,
+				9F8BA5C719484C3A005D6891 /* AppDelegate.m */,
+				9F8BA5E619484C5B005D6891 /* MainViewController.h */,
+				9F8BA5E719484C5B005D6891 /* MainViewController.m */,
+				9F8BA5E919484D0B005D6891 /* BtnView.h */,
+				9F8BA5EA19484D0B005D6891 /* BtnView.m */,
+				9F8BA5C919484C3A005D6891 /* Images.xcassets */,
+				9F8BA5BE19484C3A005D6891 /* Supporting Files */,
+			);
+			path = "关灯游戏1.0";
+			sourceTree = "<group>";
+		};
+		9F8BA5BE19484C3A005D6891 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BA5BF19484C3A005D6891 /* 关灯游戏1.0-Info.plist */,
+				9F8BA5C019484C3A005D6891 /* InfoPlist.strings */,
+				9F8BA5C319484C3A005D6891 /* main.m */,
+				9F8BA5C519484C3A005D6891 /* 关灯游戏1.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F8BA5D619484C3A005D6891 /* 关灯游戏1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BA5DC19484C3A005D6891 /* ____1_0Tests.m */,
+				9F8BA5D719484C3A005D6891 /* Supporting Files */,
+			);
+			path = "关灯游戏1.0Tests";
+			sourceTree = "<group>";
+		};
+		9F8BA5D719484C3A005D6891 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8BA5D819484C3A005D6891 /* 关灯游戏1.0Tests-Info.plist */,
+				9F8BA5D919484C3A005D6891 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8BA5B319484C3A005D6891 /* 关灯游戏1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8BA5E019484C3A005D6891 /* Build configuration list for PBXNativeTarget "关灯游戏1.0" */;
+			buildPhases = (
+				9F8BA5B019484C3A005D6891 /* Sources */,
+				9F8BA5B119484C3A005D6891 /* Frameworks */,
+				9F8BA5B219484C3A005D6891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "关灯游戏1.0";
+			productName = "关灯游戏1.0";
+			productReference = 9F8BA5B419484C3A005D6891 /* 关灯游戏1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8BA5CE19484C3A005D6891 /* 关灯游戏1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8BA5E319484C3A005D6891 /* Build configuration list for PBXNativeTarget "关灯游戏1.0Tests" */;
+			buildPhases = (
+				9F8BA5CB19484C3A005D6891 /* Sources */,
+				9F8BA5CC19484C3A005D6891 /* Frameworks */,
+				9F8BA5CD19484C3A005D6891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8BA5D519484C3A005D6891 /* PBXTargetDependency */,
+			);
+			name = "关灯游戏1.0Tests";
+			productName = "关灯游戏1.0Tests";
+			productReference = 9F8BA5CF19484C3A005D6891 /* 关灯游戏1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8BA5AC19484C3A005D6891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "萨斯辈的呼唤";
+				TargetAttributes = {
+					9F8BA5CE19484C3A005D6891 = {
+						TestTargetID = 9F8BA5B319484C3A005D6891;
+					};
+				};
+			};
+			buildConfigurationList = 9F8BA5AF19484C3A005D6891 /* Build configuration list for PBXProject "关灯游戏1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F8BA5AB19484C3A005D6891;
+			productRefGroup = 9F8BA5B519484C3A005D6891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8BA5B319484C3A005D6891 /* 关灯游戏1.0 */,
+				9F8BA5CE19484C3A005D6891 /* 关灯游戏1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8BA5B219484C3A005D6891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8BA5C219484C3A005D6891 /* InfoPlist.strings in Resources */,
+				9F8BA5CA19484C3A005D6891 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8BA5CD19484C3A005D6891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8BA5DB19484C3A005D6891 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8BA5B019484C3A005D6891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8BA5C819484C3A005D6891 /* AppDelegate.m in Sources */,
+				9F8BA5E819484C5B005D6891 /* MainViewController.m in Sources */,
+				9F8BA5C419484C3A005D6891 /* main.m in Sources */,
+				9F8BA5EB19484D0B005D6891 /* BtnView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8BA5CB19484C3A005D6891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8BA5DD19484C3A005D6891 /* ____1_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F8BA5D519484C3A005D6891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8BA5B319484C3A005D6891 /* 关灯游戏1.0 */;
+			targetProxy = 9F8BA5D419484C3A005D6891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8BA5C019484C3A005D6891 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8BA5C119484C3A005D6891 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F8BA5D919484C3A005D6891 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8BA5DA19484C3A005D6891 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8BA5DE19484C3A005D6891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F8BA5DF19484C3A005D6891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8BA5E119484C3A005D6891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "关灯游戏1.0/关灯游戏1.0-Prefix.pch";
+				INFOPLIST_FILE = "关灯游戏1.0/关灯游戏1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F8BA5E219484C3A005D6891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "关灯游戏1.0/关灯游戏1.0-Prefix.pch";
+				INFOPLIST_FILE = "关灯游戏1.0/关灯游戏1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9F8BA5E419484C3A005D6891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/关灯游戏1.0.app/关灯游戏1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "关灯游戏1.0/关灯游戏1.0-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "关灯游戏1.0Tests/关灯游戏1.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9F8BA5E519484C3A005D6891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/关灯游戏1.0.app/关灯游戏1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "关灯游戏1.0/关灯游戏1.0-Prefix.pch";
+				INFOPLIST_FILE = "关灯游戏1.0Tests/关灯游戏1.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8BA5AF19484C3A005D6891 /* Build configuration list for PBXProject "关灯游戏1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8BA5DE19484C3A005D6891 /* Debug */,
+				9F8BA5DF19484C3A005D6891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8BA5E019484C3A005D6891 /* Build configuration list for PBXNativeTarget "关灯游戏1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8BA5E119484C3A005D6891 /* Debug */,
+				9F8BA5E219484C3A005D6891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F8BA5E319484C3A005D6891 /* Build configuration list for PBXNativeTarget "关灯游戏1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8BA5E419484C3A005D6891 /* Debug */,
+				9F8BA5E519484C3A005D6891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8BA5AC19484C3A005D6891 /* Project object */;
+}
